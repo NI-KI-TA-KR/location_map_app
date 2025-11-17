@@ -1,0 +1,19 @@
+settings:
+  SwitchTheTheme:
+    theme: Switch the theme
+    light: Light Theme
+    dark: Dark Theme
+  SwithTheDB:
+    db: Choose a type of database
+    drift: Drift
+    sqlite: Sqlite3
+
+map:
+  settings: Settings
+
+drawer:
+  name: Map App Location
+  version: v1.0.0
+
+error:
+  errorText: "Oops, something was wrong"

@@ -1,0 +1,5 @@
+base_locale: en
+input_file_pattern: .i18n.yaml
+input_directory: assets/i18n
+output_directory: lib/core/assets_gen/localization
+fallback_strategy: base_locale
