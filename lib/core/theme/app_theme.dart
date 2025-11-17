@@ -9,14 +9,14 @@ class AppTheme {
 
   static bool isDark = true;
 
-  String get mapStyle {
+  static String get mapStyle {
     if (isDark) return _darkMapStyle;
     return _lightMapStyle;
   }
 
-  final String _lightMapStyle =
+  static final String _darkMapStyle =
       'https://api.maptiler.com/maps/darkmatter/{z}/{x}/{y}.png?key=mwq1vVxI02NvVeaIGrai';
-  final String _darkMapStyle =
+  static final String _lightMapStyle =
       'https://api.maptiler.com/maps/basic/{z}/{x}/{y}.png?key=mwq1vVxI02NvVeaIGrai';
 
   ThemeData get currentTheme => isDark ? darkTheme : lightTheme;
